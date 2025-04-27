@@ -26,7 +26,7 @@ import streamlit as st
 import requests
 import os
 
-API_KEY = os.getenv("SPOONACULAR_API_KEY", "15743483325f40568a65c786ba9d74bc")
+API_KEY = os.getenv("SPOONACULAR_API_KEY", "YOUR_API_KEY_HERE")
 
 def get_recipe_details(recipe_id):
     url = f"https://api.spoonacular.com/recipes/{recipe_id}/information"
